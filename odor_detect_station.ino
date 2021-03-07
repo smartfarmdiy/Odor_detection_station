@@ -15,12 +15,12 @@ unsigned int no2, c2h5ch, voc, co;
 #define DHTTYPE DHT11 //define DHT Sensor Type
 DHT dht(DHTPIN, DHTTYPE); //initialize DHT sensor
  
-const char* ssid = "ubonagritecger"; //Wi-Fi name    "2nd_Floor"
-const char* password =  "u@@123456789"; //Wi-Fi password    "Lakpass321."
+const char* ssid = "xxxxx"; //Wi-Fi name    "xxxxx"
+const char* password =  "xxxxx"; //Wi-Fi password    "xxxx."
 
 
 const char* serverName = "io.adafruit.com"; //Domain Name for HTTP POST Request
-String AIOKey = "aio_Agoh90uunxiA1gmh39mS9I4flP2T"; //"Write API Key" from ThingSpeak
+String AIOKey = "aio_xxxxxxxxxxxxxxxxxxx"; //"Write API Key" from adafuit
 
 // Use WiFiClient class to create TCP connections
 WiFiClient client;
@@ -236,7 +236,7 @@ void loop() {
   client.println("POST /api/v2/Ubonagritechno/feeds/temperature/data HTTP/1.1");
   client.println("Host: io.adafruit.com");
   client.println("Connection: keep-alive");
-  client.println("X-AIO-Key: aio_Agoh90uunxiA1gmh39mS9I4flP2T");
+  client.println("X-AIO-Key: aio_xxxxxxxxxxxxxxxxxxxxx");
   client.println("Content-Type: application/x-www-form-urlencoded");
   client.print("Content-Length: ");
   client.println(tempStr.length());
@@ -247,7 +247,7 @@ void loop() {
   client.println("POST /api/v2/Ubonagritechno/feeds/humidity/data HTTP/1.1");
   client.println("Host: io.adafruit.com");
   client.println("Connection: keep-alive");
-  client.println("X-AIO-Key: aio_Agoh90uunxiA1gmh39mS9I4flP2T");
+  client.println("X-AIO-Key: aio_xxxxxxxxxxxxxxxxxxxxx");
   client.println("Content-Type: application/x-www-form-urlencoded");
   client.print("Content-Length: ");
   client.println(humiStr.length());
@@ -258,7 +258,7 @@ void loop() {
   client.println("POST /api/v2/Ubonagritechno/feeds/carbon/data HTTP/1.1");
   client.println("Host: io.adafruit.com");
   client.println("Connection: keep-alive");
-  client.println("X-AIO-Key: aio_Agoh90uunxiA1gmh39mS9I4flP2T");
+  client.println("X-AIO-Key: aio_xxxxxxxxxxxxxxxxxxxxx");
   client.println("Content-Type: application/x-www-form-urlencoded");
   client.print("Content-Length: ");
   client.println(conmgStr.length());
@@ -269,7 +269,7 @@ void loop() {
   client.println("POST /api/v2/Ubonagritechno/feeds/nitro/data HTTP/1.1");
   client.println("Host: io.adafruit.com");
   client.println("Connection: keep-alive");
-  client.println("X-AIO-Key: aio_Agoh90uunxiA1gmh39mS9I4flP2T");
+  client.println("X-AIO-Key: aio_xxxxxxxxxxxxxxxxxxxxx");
   client.println("Content-Type: application/x-www-form-urlencoded");
   client.print("Content-Length: ");
   client.println(nitrgStr.length());
@@ -280,7 +280,7 @@ void loop() {
   client.println("POST /api/v2/Ubonagritechno/feeds/ethy/data HTTP/1.1");
   client.println("Host: io.adafruit.com");
   client.println("Connection: keep-alive");
-  client.println("X-AIO-Key: aio_Agoh90uunxiA1gmh39mS9I4flP2T");
+  client.println("X-AIO-Key: aio_xxxxxxxxxxxxxxxxxxxxx");
   client.println("Content-Type: application/x-www-form-urlencoded");
   client.print("Content-Length: ");
   client.println(alchoStr.length());
@@ -292,7 +292,7 @@ void loop() {
   client.println("POST /api/v2/Ubonagritechno/feeds/vvocs/data HTTP/1.1");
   client.println("Host: io.adafruit.com");
   client.println("Connection: close");
-  client.println("X-AIO-Key: aio_Agoh90uunxiA1gmh39mS9I4flP2T");
+  client.println("X-AIO-Key: aio_xxxxxxxxxxxxxxxxxxxxx");
   client.println("Content-Type: application/x-www-form-urlencoded");
   client.print("Content-Length: ");
   client.println(vocgStr.length());
