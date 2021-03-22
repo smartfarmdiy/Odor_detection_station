@@ -301,7 +301,7 @@ void loop() {
 
   
   delay(2000);
-  Serial.println("Sent to Adafruit IO");
+  Serial.println("Sent to dashboard IO");
   
   }
   
