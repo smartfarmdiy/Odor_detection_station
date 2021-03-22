@@ -20,7 +20,7 @@ const char* password =  "xxxxx"; //Wi-Fi password    "xxxx."
 
 
 const char* serverName = "io.adafruit.com"; //Domain Name for HTTP POST Request
-String AIOKey = "aio_xxxxxxxxxxxxxxxxxxx"; //"Write API Key" from adafuit
+String AIOKey = "aio_xxxxxxxxxxxxxxxxxxx"; //"Write API Key" 
 
 // Use WiFiClient class to create TCP connections
 WiFiClient client;
@@ -234,7 +234,7 @@ void loop() {
 
   //make an HTTP POST request
   client.println("POST /api/v2/Ubonagritechno/feeds/temperature/data HTTP/1.1");
-  client.println("Host: io.adafruit.com");
+  client.println("Host: xxxx.com");
   client.println("Connection: keep-alive");
   client.println("X-AIO-Key: aio_xxxxxxxxxxxxxxxxxxxxx");
   client.println("Content-Type: application/x-www-form-urlencoded");
@@ -245,7 +245,7 @@ void loop() {
 
   //make an HTTP POST request
   client.println("POST /api/v2/Ubonagritechno/feeds/humidity/data HTTP/1.1");
-  client.println("Host: io.adafruit.com");
+  client.println("Host: xxxx.com");
   client.println("Connection: keep-alive");
   client.println("X-AIO-Key: aio_xxxxxxxxxxxxxxxxxxxxx");
   client.println("Content-Type: application/x-www-form-urlencoded");
@@ -256,7 +256,7 @@ void loop() {
 
   //make an HTTP POST request
   client.println("POST /api/v2/Ubonagritechno/feeds/carbon/data HTTP/1.1");
-  client.println("Host: io.adafruit.com");
+  client.println("Host: xxxx.com");
   client.println("Connection: keep-alive");
   client.println("X-AIO-Key: aio_xxxxxxxxxxxxxxxxxxxxx");
   client.println("Content-Type: application/x-www-form-urlencoded");
@@ -267,7 +267,7 @@ void loop() {
 
   //make an HTTP POST request
   client.println("POST /api/v2/Ubonagritechno/feeds/nitro/data HTTP/1.1");
-  client.println("Host: io.adafruit.com");
+  client.println("Host: xxxx.com");
   client.println("Connection: keep-alive");
   client.println("X-AIO-Key: aio_xxxxxxxxxxxxxxxxxxxxx");
   client.println("Content-Type: application/x-www-form-urlencoded");
@@ -278,7 +278,7 @@ void loop() {
 
   //make an HTTP POST request
   client.println("POST /api/v2/Ubonagritechno/feeds/ethy/data HTTP/1.1");
-  client.println("Host: io.adafruit.com");
+  client.println("Host: xxxx.com");
   client.println("Connection: keep-alive");
   client.println("X-AIO-Key: aio_xxxxxxxxxxxxxxxxxxxxx");
   client.println("Content-Type: application/x-www-form-urlencoded");
@@ -290,7 +290,7 @@ void loop() {
 
   //make an HTTP POST request
   client.println("POST /api/v2/Ubonagritechno/feeds/vvocs/data HTTP/1.1");
-  client.println("Host: io.adafruit.com");
+  client.println("Host: xxxx.com");
   client.println("Connection: close");
   client.println("X-AIO-Key: aio_xxxxxxxxxxxxxxxxxxxxx");
   client.println("Content-Type: application/x-www-form-urlencoded");
