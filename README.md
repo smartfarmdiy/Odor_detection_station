@@ -9,6 +9,8 @@ No2: Nitrogen dioxide
 Temp: Temperature
 Humid: Humidity
 (C2H5CH): Ethyl alcohol
+and more if you need more value please contact (Smart Farm DIY) team
+Hardware: we use Seeed Studio WioTerminal IoT
 
 #smartfarmdiy
 
@@ -17,6 +19,8 @@ Humid: Humidity
 ![Odor_detect_smartfarmdiy04](https://user-images.githubusercontent.com/63504401/111037504-eb059e80-8456-11eb-8978-76b9ccc1b05f.JPG)
 ![Odor_detect_smartfarmdiy05](https://user-images.githubusercontent.com/63504401/111037505-eb9e3500-8456-11eb-842d-5eb4a63e348c.JPG)
 ![Odor_detect_smartfarmdiy06](https://user-images.githubusercontent.com/63504401/111037506-ec36cb80-8456-11eb-8a9b-289ce1108ff0.JPG)
+![hardware001](https://user-images.githubusercontent.com/63504401/117300258-95bc9b00-aea3-11eb-9019-34d311dd121e.JPG)
+
 ![ตรวจวัดกลิ่น_Odor_detect_station_Diagram-003](https://user-images.githubusercontent.com/63504401/111037507-ee992580-8456-11eb-88ba-963100803847.jpg)
 ![ตรวจวัดกลิ่น_Odor_detect_station_Diagram-006](https://user-images.githubusercontent.com/63504401/111037509-ef31bc00-8456-11eb-8773-8dff3dd2be16.jpg)
 
